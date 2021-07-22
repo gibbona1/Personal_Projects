@@ -8,3 +8,5 @@ Personal side projects to reinforce programming concepts
 [ ] Image Segmentation - Path/object detection
 
 [ ] Video Segmentation - Movie Character dedection
+
+[ ] Project Euler
