@@ -1,0 +1,501 @@
+KALEIDOSCOPE 5.4.2 10/03/21 23:19:19
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc231482.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc561592.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc553349.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc447478.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc424965.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc522988.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc481982.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc295135.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc26789.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc528508.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc448675.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc481986.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc236617.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc425909.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc553497.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc426048.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc534748.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc240495.wav 32000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc534750.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc538710.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc450997.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc254912.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc432733.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc482366.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc25754.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc315363.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc539273.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc559277.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc540804.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc565822.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc330151.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc540932.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc453967.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc566769.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc542331.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc261486.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc339599.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc482367.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc261489.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc559280.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc341737.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc482368.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc263994.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc433784.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc263995.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc482369.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc564770.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc441294.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc454041.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc482961.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc344221.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc310713.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc441295.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc565776.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc454863.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc482962.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc565777.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc263996.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc483080.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc456431.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc315640.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc567398.wav 32000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc483257.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc357609.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc364086.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc457104.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc121168.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc449756.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc364880.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc372910.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc25119.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc372911.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc265251.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc27962.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc380962.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc483258.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc449757.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc457105.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc528571.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc458091.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc542332.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc277466.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc528726.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc483390.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc317282.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc459311.wav 16000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc459312.wav 16000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc381668.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc459663.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc400868.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc458938.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc462741.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc542333.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc410962.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc411754.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc462743.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc458939.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc483583.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc281035.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc463179.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc529045.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc531596.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc542334.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc533316.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc464626.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc460307.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc542359.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc575262.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc542543.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc543411.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc460309.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc545755.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc575430.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc281036.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc460310.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc545991.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc575431.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc465759.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc468802.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc535484.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc281037.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc460311.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc535485.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc471518.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc535709.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc577749.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc536127.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc484858.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc46032.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc475518.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc281038.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc536562.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc545994.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc412257.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc547217.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc547368.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc421043.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc322347.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc548338.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc536564.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc479028.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc462039.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc426235.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc548742.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc548772.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc536566.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc479855.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc548774.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc480978.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc323840.wav 32000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc548777.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc548778.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc462377.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc483710.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc549134.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc428499.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc462378.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc323841.wav 32000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc549541.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc486116.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc536569.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc462379.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc281039.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc552666.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc537686.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc432930.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc537687.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc538147.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc432931.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc538389.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc435793.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc281040.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc554713.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc462380.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc559153.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc486748.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc281041.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc463234.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc564468.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc436203.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc486956.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc324742.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc436938.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc591725.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc281042.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc595055.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc437084.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc595823.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc439214.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc487311.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc281043.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc597085.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc440482.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc538392.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc597138.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc597994.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc597995.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc598664.wav 24000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc538395.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc598667.wav 24000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc446995.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc598668.wav 24000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc599086.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc448765.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc567157.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc288770.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc326855.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc288771.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc568974.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc599693.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc538396.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc599737.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc448908.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc452357.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc454200.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc487313.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc455341.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc487380.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc288772.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc487601.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc456930.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc298602.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc459964.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc466157.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc487602.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc487106.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc599738.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc570105.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc53817.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc466994.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc570106.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc467260.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc599739.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc570107.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc327402.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc467804.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc470195.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc540059.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc76241.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc463247.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc471585.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc570108.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc469805.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc474828.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc477749.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc570246.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc317477.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc570309.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc156388.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc570316.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc478568.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc540688.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc570317.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc195301.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc478876.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc541708.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc82701.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc542167.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc542937.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc479846.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc543202.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc486755.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc543227.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc543319.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc343180.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc546728.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc197152.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc487189.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc89530.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc317698.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc143551.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc473644.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc487692.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc67229.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc343885.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc324535.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc347570.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc487693.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc26578.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc143611.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc599920.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc363842.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc600227.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc600476.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc600484.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc197153.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc144971.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc383668.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc145153.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc600589.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc600822.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc600925.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc600969.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc150270.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc600971.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc601008.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc385416.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc497473.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc601163.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc500259.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc601166.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc150271.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc393002.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc546730.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc601364.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc601459.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc347571.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc601635.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc510580.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc510589.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc601763.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc197156.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc601929.wav 24000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc513455.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc602427.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc602674.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc602680.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc474515.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc400300.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc330113.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc602813.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc330114.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc602977.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc603460.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Common Moorhen\xc519992.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc341746.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc603597.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc604178.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc360212.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc156441.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc402266.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc360214.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc364359.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc366285.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc403031.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc356171.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc604179.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc476977.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc604448.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc197571.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc477569.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc367545.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc605157.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc605230.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc605248.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc478196.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc403032.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc197572.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc370533.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc403802.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc487352.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc405072.wav 32000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc372008.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc356172.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc169998.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc359355.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc405977.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc371059.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc490079.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc372046.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc197573.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc405987.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc197583.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc509500.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc513542.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc198415.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc513929.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc211465.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc405989.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc406293.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc372776.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc213958.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc519698.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc374199.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc372048.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc406295.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc214075.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc376887.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc245715.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc376889.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc406296.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc376891.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc376892.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc406297.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc376893.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc170023.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc377100.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc247889.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc247890.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc519722.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc406298.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc372049.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc380452.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc406345.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc372050.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc372052.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc252238.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc520086.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc394974.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc256407.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc399838.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc406064.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc406347.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc176226.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc520705.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc27039.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc410033.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc522588.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc373011.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc281255.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc522589.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc376353.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc376842.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc410058.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc415060.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc377131.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc380441.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc281258.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc522592.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc420788.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc391861.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc410060.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc287578.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc421589.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc422080.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc424264.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc394957.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc414044.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc432296.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc522663.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc176235.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc522664.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc288125.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc432929.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc417564.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc289809.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc183445.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc420320.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc394958.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc426038.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc448445.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc523092.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc525917.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc530626.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc429077.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc546751.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc534291.wav 32000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc429078.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc535994.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc448447.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc429079.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc430031.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc438390.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc439959.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc417680.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc440449.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc418073.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc448448.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc440709.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc420332.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc420333.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc541415.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc541872.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Eurasian Oystercatcher\xc424335.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc541882.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc546752.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc541927.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc448449.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc548696.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc548768.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc552264.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc448450.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc544113.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc448451.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc552392.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc549532.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc552638.wav 48000x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc552920.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc448453.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc449135.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc449136.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc449137.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc449138.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc551394.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc552940.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc476394.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Marsh Tit\xc55184.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc555069.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc555178.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc477538.wav 48000x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc479611.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc481591.wav 44100x1
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc481668.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc557911.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc481978.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc558266.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc481979.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\European Nightjar\xc481981.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc558844.wav 44100x2
+INPUT C:\Users\AnthonyGibbons\OneDrive - Peroptyx\Documents\GitHub\Personal_Projects\bird_detection_audio\birds\Redwing\xc560638.wav 44100x2
