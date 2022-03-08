@@ -1,7 +1,7 @@
 getwd()
-setwd('C:/Users/Anthony/OneDrive - Maynooth University/Documents/GitHub/Personal_Projects/bird_detection_audio')
+setwd('C:/Users/Anthony/Documents/GitHub/Personal_Projects/bird_detection_audio')
 
-comp_folder <- '20220303_comparison_results'
+comp_folder <- '20220307_comparison_results'
 comp_list   <- list.files(comp_folder)
 
 library(stringr)
@@ -56,6 +56,9 @@ comb_auc_data
 library(knitr)
 #install.packages("kableExtra")
 library(kableExtra)
+library(dplyr)
+library(ggplot2)
+library(Rmisc)
 comb_metric_data
 
 comb_metric_data[comb_metric_data$model=="smallcnn",]
@@ -89,7 +92,7 @@ library(ggplot2)
 
 ggplot(comb_metric_data) + 
   geom_boxplot(aes(model, top_1_acc)) +
-  #theme(axis.text.x = element_text(size=5)) +
+  theme(axis.text.x = element_text(size=5)) +
   #scale_color_manual(values=c('red'='red', 'black'='black'))+
   ylab("Test Accuracy") +
   theme(legend.position = "none")

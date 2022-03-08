@@ -1,6 +1,7 @@
 bird_detection_audio/birds/*
 bird_detection_audio/richfield_birds/*
 bird_detection_audio/richfield_birds_split/*
+bird_detection_audio/richfield_birds_split_clean/*
 bird_detection_audio/dublin_dl_birds/*
 bird_detection_audio/dublin_dl_birds_split/*
 bird_detection_audio/model_history/*
@@ -16,4 +17,6 @@ bird_detection_audio/20220302_comparison_results2/*
 bird_detection_audio/20220303_comparison_results/*
 bird_detection_audio/checkpoints/*
 bird_detection_audio/birdnet_model/*
+bird_detection_audio/20220301_comparison_results/*
+bird_detection_audio/20220307_comparison_results/*
 audio_detection_r/
