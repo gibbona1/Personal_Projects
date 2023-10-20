@@ -1,0 +1,3 @@
+,model,top_1_acc,precision,f1
+0,,0.755,1.0,0.8603988603988604
+1,mfcc_cnn,,,

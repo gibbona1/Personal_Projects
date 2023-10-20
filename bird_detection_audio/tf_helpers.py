@@ -14,9 +14,11 @@ def get_label(file_path):
     # to work in a TensorFlow graph.
     return parts[-2]
 
-def gen_complex_spec(waveform):
-    nfft     = int(0.02*48000) #params.fft_win_length
-    noverlap = int(0.1*nfft) #params.fft_overlap
+def gen_complex_spec(waveform, sr):
+    #nfft     = int(0.02*float(sr)) #params.fft_win_length
+    nfft     = 48000//50 #params.fft_win_length
+    #noverlap = int(0.1*nfft) #params.fft_overlap
+    noverlap = nfft//10 #params.fft_overlap
     
     # window data
     step    = nfft - noverlap
@@ -42,14 +44,20 @@ def multi_spec_stack(complex_spec, choices = ['Mod'], stack = True):
         def apply_func(x,c):
             if c == 'Mod':
                 return tf.math.abs(x)
+            if c == 'LogMod':
+                return tf.math.log(tf.math.abs(x)+np.finfo(np.float32).eps)
             if c == 'Re':
                 return tf.math.real(x)
             if c == 'AbsRe':
                 return tf.math.abs(tf.math.real(x))
+            if c == 'LogAbsRe':
+                return tf.math.log(tf.math.abs(tf.math.real(x))+np.finfo(np.float32).eps)
             if c == 'Im':
                 return tf.math.imag(x)
             if c == 'AbsIm':
                 return tf.math.abs(tf.math.imag(x))
+            if c == 'LogAbsIm':
+                return tf.math.log(tf.math.abs(tf.math.imag(x))+np.finfo(np.float32).eps)
             if c == 'Ang':
                 return tf.math.angle(x)
             if c == 'AbsAng':
@@ -59,7 +67,7 @@ def multi_spec_stack(complex_spec, choices = ['Mod'], stack = True):
         spec_arr = tf.stack(spec_arr,-1)
     return spec_arr
 
-def multi_spec_post(spec, req_width):
+def multi_spec_post(spec, req_width, spec_norm, resize):
     spec_shp         = tf.shape(spec)
     spec_cutoff      = [0, 1, 0]
     spec_cutoff_size = [spec_shp[0],spec_shp[1]-1, spec_shp[2]]
@@ -69,41 +77,23 @@ def multi_spec_post(spec, req_width):
     #spec = spec[:, :100, :]
     
     spec_shp  = tf.shape(spec)
-    req_width = req_width
+    req_width = req_width*resize
     
-    if spec_shp[0] < req_width:
-        zero_pad = tf.ones((req_width - spec_shp[0], spec_shp[1], spec_shp[2]))*1e-8
+    if spec_shp[0] < tf.constant(req_width):
+        zero_pad = tf.ones((tf.constant(req_width) - spec_shp[0], spec_shp[1], spec_shp[2]))*1e-8
         spec     = tf.concat([spec, zero_pad], axis = 0)
     else:
         spec = tf.slice(spec, [0,0,0], [req_width, spec_shp[1], spec_shp[2]]) #spec[:,:req_width,:]
         
     spec = tf.transpose(spec, perm = [1,0,2])
     
-    #def spec_normalize(x, axis = (0,1), kd = True):
-    #    return (x- x.min(axis=axis, keepdims=kd))/(x.max(axis=axis, keepdims=kd) - x.min(axis=axis, keepdims=kd))
-
     def spec_normalize(x):
-        out_list = []
-        tensor_shape = tf.shape(x)
-        for i in range(tensor_shape[-1]):
-            x_channel = x[:,:,i]
-            x_channel = tf.divide(tf.subtract(
-                x_channel, tf.reduce_mean(x_channel)
-            ), tf.math.reduce_std(x_channel))
-            out_list.append(x_channel)
-        return tf.stack(out_list)
+        out_tf = 255*(x - tf.math.reduce_min(x,axis=(0,1), keepdims=True)) / (tf.math.reduce_max(x,axis=(0,1), keepdims=True) - tf.math.reduce_min(x,axis=(0,1), keepdims=True)+np.finfo(np.float32).eps) 
+        #out_tf = (x - tf.math.reduce_mean(x,axis=(0,1), keepdims=True)) / (tf.math.reduce_std(x,axis=(0,1), keepdims=True) +np.finfo(np.float32).eps)
+        return out_tf
         
-    #def spec_normalize(x):
-    #    return tf.divide(
-    #    tf.subtract(
-    #        x, tf.reduce_min(x)
-    #    ), 
-    #    tf.subtract(
-    #        tf.reduce_max(x), 
-    #        tf.reduce_min(x)
-    #    )
-    #)
-    #spec = spec_normalize(spec)
+    if spec_norm:
+        spec = spec_normalize(spec)
     
     return spec
 
@@ -116,36 +106,39 @@ def spec_unstack(spec,label):
 def decode_audio(audio_binary):
     audio, sr = tf.audio.decode_wav(audio_binary) # returns the WAV-encoded audio as a tensor and the sample rate
     #return tf.squeeze(audio, axis=-1) # removes dimensions of size 1 from the last axis
-    return audio[:,0], sr
+    #sr = sr // 5
+    return audio[:,0], sr#.numpy()
 
 def get_waveform_sr_and_label(file_path):
-    label        = get_label(file_path)
-    audio_binary = tf.io.read_file(file_path)
-    waveform, _  = decode_audio(audio_binary)
-    return waveform, label
+    label         = get_label(file_path)
+    audio_binary  = tf.io.read_file(file_path)
+    waveform, sr  = decode_audio(audio_binary)
+    aud_tuple     = (waveform, sr)
+    return aud_tuple, label
 
-def get_spectrogram_and_label_id(audio, label, choices, categories, req_width, single_to_rgb, resize):
+def get_spectrogram_and_label_id(audio, label, choices, categories, req_width, single_to_rgb, resize, spec_norm):
     #spectrogram = get_complex_spectrogram(audio)
     #print(dir(audio))
-    complex_spec = gen_complex_spec(audio)
+    aud, sr      = audio
+    complex_spec = gen_complex_spec(aud, sr)
     multi_spec   = multi_spec_stack(complex_spec, choices)
-    multi_spec   = multi_spec_post(multi_spec, req_width)
+    multi_spec   = multi_spec_post(multi_spec, req_width, spec_norm, resize)
     if single_to_rgb:
         multi_spec = tf.concat([multi_spec,multi_spec,multi_spec], axis=-1)
         multi_spec = tf.stack(multi_spec)
     #multi_spec = complex_spec
     spec_shape = tf.shape(multi_spec)
-    if resize > 0:
+    if resize > 1:
         multi_spec = tf.image.resize(multi_spec, [spec_shape[0]//resize, spec_shape[1]//resize])
     label_id   = tf.argmax(label == categories)
     return multi_spec, label_id
 
-def preprocess_dataset(files, choices, categories, req_width = 250, single_to_rgb = False, resize = 0):
+def preprocess_dataset(files, choices, categories, req_width = 250, single_to_rgb = False, resize = 1, spec_norm = False):
     AUTOTUNE  = tf.data.experimental.AUTOTUNE
     files_ds  = tf.data.Dataset.from_tensor_slices(files)
     output_ds = files_ds.map(get_waveform_sr_and_label, num_parallel_calls=AUTOTUNE)
     output_ds = output_ds.map(lambda x,y : get_spectrogram_and_label_id(audio=x, label=y,  choices = choices, 
-        categories = categories, req_width = req_width, single_to_rgb = single_to_rgb, resize = resize), 
+        categories = categories, req_width = req_width, single_to_rgb = single_to_rgb, resize = resize, spec_norm = spec_norm), 
     num_parallel_calls=AUTOTUNE)
     #output_ds = output_ds.map(lambda x,y : spec_unstack(spec=x, label=y), num_parallel_calls=AUTOTUNE)
     return output_ds
@@ -288,7 +281,7 @@ def concat_model(input_shape, num_channels, num_classes):
     #print(input_list)
     #print(out_list)
 
-    concatenated = concatenate(out_list)
+    concatenated = concatenate(out_list, axis=-1)
     x = Dropout(0.5)(concatenated)
     x = Dense(64, activation='relu', kernel_regularizer=regularizers.l2(0.001))(x)
     x = Dropout(0.5)(x)
@@ -344,3 +337,84 @@ def concat_model2(input_shape, num_channels, num_classes):
         )
     return model
 
+def concat_model3(input_shape, num_channels, num_classes):
+    from keras.layers import Conv2D, MaxPooling2D, Input, Dense, Flatten, concatenate, Dropout
+    from keras.models import Model
+    import numpy as np
+
+
+    def part_model(input_a):
+        #x1 = layers.Resizing(100, 150)(input_a)
+        x1 = Conv2D(16, (3, 3), activation = 'relu')(input_a)
+        x1 = MaxPooling2D()(x1)
+        x1 = Conv2D(16, (3, 3))(x1)
+        x1 = MaxPooling2D()(x1)
+        x1 = Conv2D(32, (3, 3))(x1)
+        x1 = MaxPooling2D()(x1)
+        x1 = Flatten()(x1)
+        x1 = Dropout(0.5)(x1)
+        x1 = Dense(64, activation='relu', kernel_regularizer=regularizers.l2(0.001))(x1)
+        out_a = Dropout(0.5)(x1)
+        return(out_a)
+
+    out_list   = []
+    input_list = []
+    for c in range(num_channels):
+        input_a = Input(shape=input_shape)
+        input_list.append(input_a)
+        out_list.append(part_model(input_a))
+    #print(input_list)
+    #print(out_list)
+
+    concatenated = concatenate(out_list)
+    out = Dense(num_classes)(concatenated)
+    model = Model(input_list, out)
+    #print(model.summary())
+    model.compile(
+        optimizer = optimizers.Adam(learning_rate=0.0001),
+        loss      = losses.SparseCategoricalCrossentropy(from_logits=True),
+        metrics   = 'accuracy'
+        )
+    return model
+
+def concat_model4(input_shape, num_channels, num_classes):
+    from keras.layers import Conv2D, MaxPooling2D, Input, Dense, Flatten, concatenate, Dropout
+    from keras.models import Model
+    import numpy as np
+
+
+    def part_model(input_a):
+        #x1 = layers.Resizing(100, 150)(input_a)
+        x1 = Conv2D(16, (3, 3), activation = 'relu')(input_a)
+        x1 = MaxPooling2D()(x1)
+        x1 = Conv2D(16, (3, 3))(x1)
+        x1 = MaxPooling2D()(x1)
+        x1 = Conv2D(32, (3, 3))(x1)
+        x1 = MaxPooling2D()(x1)
+        x1 = Conv2D(32, (3, 3))(x1)
+        x1 = MaxPooling2D()(x1)
+        x1 = Flatten()(x1)
+        x1 = Dropout(0.5)(x1)
+        x1 = Dense(64, activation='relu', kernel_regularizer=regularizers.l2(0.001))(x1)
+        out_a = Dropout(0.5)(x1)
+        return(out_a)
+
+    out_list   = []
+    input_list = []
+    for c in range(num_channels):
+        input_a = Input(shape=input_shape)
+        input_list.append(input_a)
+        out_list.append(part_model(input_a))
+    #print(input_list)
+    #print(out_list)
+
+    concatenated = concatenate(out_list)
+    out = Dense(num_classes)(concatenated)
+    model = Model(input_list, out)
+    #print(model.summary())
+    model.compile(
+        optimizer = optimizers.Adam(learning_rate=0.0001),
+        loss      = losses.SparseCategoricalCrossentropy(from_logits=True),
+        metrics   = 'accuracy'
+        )
+    return model
