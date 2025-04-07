@@ -1,0 +1,118 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage[a4paper, margin=2cm]{geometry}
+
+\DeclareMathOperator{\Area}{Area}
+\DeclareMathOperator{\Int}{Int}
+
+\title{HM811 Natural Capital Extent Accounts in R}
+\author{Anthony Gibbons - 21252297}
+\date{May 2023}
+
+\usepackage[backend=biber, style=numeric, sorting=none, locallabelwidth]{biblatex}
+\bibliography{references}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introduction}
+
+Understanding changes in habitat types and their use over time is crucial to assessing ecolsystem health. This document demonstrates the creation of extent accounts as a possible tool for ecological monitoring.
+
+\section*{Maps}
+
+The below maps are taken from Hazelwood farm, courtesy of the For-ES project at Trinity College Dublin \url{https://www.for-es.ie/}.
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{.5\textwidth}
+      \centering
+      \includegraphics[width=.95\linewidth]{figures/opening.png}
+      \captionof{figure}{Site in 2000, $m_0$}
+      \label{fig:test1}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+      \centering
+      \includegraphics[width=.95\linewidth]{figures/closing.png}
+      \captionof{figure}{Site in 2018, $m_1$}
+      \label{fig:test2}
+    \end{minipage}
+    \end{figure}
+
+Notice that code \textbf{511} (water courses), which is in the site in 2000, is absent from the site in 2018 and is replaced wirth 311 (broad-leaved forest). 
+We also norice some small amounts of \textbf{231} (pasture) has been reintroduced in the north east.
+Some more investigation is needed to figure out the habitat dynamics.
+
+\section*{Extent accounts}
+
+Given two shapefiles like those displayed in Fig~\ref{fig:test1} and Fig~\ref{fig:test2}, 
+we want to calculate the changes in each group between the first and second timepoint.
+
+Suppose we have opening and closing maps $m_0$ and $m_1$ respectively. Their extent is calculated this way:
+
+\begin{itemize}
+  \item For the opening area of each group $g \in \{231, 311, 511, 512\}$ we calculate the opening area $A_{\text{opening},g}$ to be
+
+  $$ A_{\text{opening},g}= \sum\limits_{\substack{j \in m_0\\j\text{ in group }g}} \Area(j)\quad\text{for all polygons } j \text{ and groups }g$$
+
+  and closing area $A_{\text{closing},g}$
+  
+  $$ A_{\text{closing},g}= \sum\limits_{\substack{k \in m_1\\k\text{ in group }g}} \Area(k)\quad\text{for all polygons } k \text{ and groups }g$$
+
+  Where $\Area$ is a function calculating the area of a polygon (in Hectares).
+
+  \item The intersection $B_g$ between $m_0$ and $m_1$ (for each group) gives the amount unchanged (if any) across the time period
+  
+  $$B_g=\sum\limits_{\substack{j \in m_0\\k\text{ in group }g}}\left(
+        \sum\limits_{\substack{k \in m_1\\k\text{ in group }g}} \Area(\Int(j,k)) \right)\quad\text{for all polygons } j,k \text{ and groups }g$$
+
+  where $Int$ is a function that takes two polygons and returns the resulting polygon from their intersection (could be empty).
+
+  \item The increase in area across a group, $C_g$  is calculated simply as 
+  
+  $$C_g=A_{\text{closing},g} - B_g$$
+
+  and similarly the decrease $D_g$
+
+  $$D_g=B_g - A_{\text{opening},g}$$
+
+  \item Then the net change across a group $E_g$ is
+  
+  $$E_g = A_{\text{closing},g}-A_{\text{opening},g} \qquad \text{or} \qquad E_g=C_g+D_g$$
+\end{itemize}
+
+See below an extent account corresponding to the above map.
+
+\input{figures/extent_xtab}
+
+We can also represent the increase, decrease and net change as a percent of the opening area.
+
+\input{figures/percent_xtab}
+
+By a similar method to making the extent account above, we can construct an Ecosystem Type Change Matrix to see which codes were added to or taken away from other codes between opening and closing.
+The diagonal entries are the areas of the unchanged portions. The off-diagonals are the amounts changed from the type in the row to the type in the column.
+
+For example, the Opening extent for (habitat) code \emph{231} was 11.50 Ha. With 6.59 Ha lost to code 311 and 1.12 Ha gained from code 311 also, the net decrease of 5.47 Ha results in a closing extent of 6.03 Ha.
+
+\input{figures/extentmat_xtab}
+
+\section*{R Code}
+
+The maps were generated using \cite{leaflet, sf1, sf2, dplyr} and then saved using \cite{htmlwidgets, mapview, webshot}
+
+The code for this is in the preliminary stages of a shiny app 
+for users with map data of a site over 2 time points to 
+explore the changes across some grouping variable \cite{shiny}.
+
+\section*{Makefile}
+
+To help with running the R code repeatedly to generate the plots and tables seen in this document, I made use of a Makefile, based on Rob J Hyndman's Blog on the subject\cite{HyndmanBlog12}.
+
+
+
+\printbibliography
+
+\end{document}

@@ -1,0 +1,146 @@
+library(shiny)
+library(leaflet)
+library(sf)
+library(dplyr)
+library(xtable)
+library(mapview)
+library(htmlwidgets)
+library(webshot)
+
+#folders for shapefiles and where to put figures
+data_folder <- "map_data"
+fig_folder  <- "figures"
+
+path1 <- file.path(data_folder, "hazelwood_CLC2000.shp")
+path2 <- file.path(data_folder, "hazelwood_CLC2018.shp")
+
+#helper function to read the .shp file and project to the desired coordinate system
+setup_read_sf <- function(fname){
+  map      <- st_read(fname, quiet=TRUE)
+  map1     <- st_transform(map, "EPSG:4326")
+  return(map1)
+}
+  
+#to avoid errors, if map intersections return NULLs, just return zero
+blank_zero <- function(x){
+  if(length(x)==0)
+    return(0)
+  return(x)
+}
+  
+#this gets the aggregate changes in each group (start and end areas, and amount increased, decreased, changed)
+change_area <- function(sf1, sf2, grp){
+  int_area <- sf1 %>% filter(CODE_00 == grp) %>%
+    st_intersection(sf2 %>% filter(CODE_18 == grp)) %>%
+    st_area() %>% as.numeric() %>% blank_zero() %>% sum()
+  
+  opening_A <- sf1 %>% 
+    filter(CODE_00 == grp) %>% st_area() %>% 
+    as.numeric() %>% blank_zero() %>% sum()
+  closing_A <- sf2 %>% 
+    filter(CODE_18 == grp) %>% st_area() %>% 
+    as.numeric() %>% blank_zero() %>% sum()
+  
+  res <- list(
+    "opening"    = opening_A/10^4,
+    "increase"   = (closing_A - int_area)/10^4,
+    "decrease"   = -1*(opening_A - int_area)/10^4,
+    "net change" = -1*(opening_A - closing_A)/10^4,
+    "closing"    = closing_A/10^4)
+  return(res)
+}
+
+# Read shapefiles
+sf1 <- setup_read_sf(path1)
+sf2 <- setup_read_sf(path2)
+
+#common colour palette between the two maps for easier visualisation of groups
+code_grps <- union(sf1$CODE_00, sf2$CODE_18)
+
+plotCols <- colorFactor(
+    palette = "viridis",
+    domain  = code_grps
+)
+
+# Render the polygons on a map
+gen_map_leaflet <- function(data, column){
+  pl <- leaflet() %>%
+    addTiles() %>%
+    addPolygons(data         = data,
+                fillColor    = plotCols(data[[column]]),
+                fillOpacity  = 0.7,
+                color        = "#b2aeae", #boundary colour, need to use hex color codes.
+                weight       = 0.5, 
+                smoothFactor = 0.2) %>%
+    addLegend(pal      = plotCols,
+              values   = data[[column]], 
+              position = "bottomleft", 
+              title    = "Code <br>")
+  return(pl)
+  }
+
+p_opening <- gen_map_leaflet(sf1, "CODE_00")
+p_closing <- gen_map_leaflet(sf2, "CODE_18")
+
+#save as png since pdf is giivng some sizing/cropping problems
+save_leaflet <-  function(m, save_name){
+  m %>% saveWidget("temp.html", selfcontained=TRUE)
+  webshot("temp.html", file = save_name, cliprect = "viewport")
+  file.remove("temp.html")
+}
+ 
+save_leaflet(p_opening, file.path(fig_folder, "opening.png"))
+save_leaflet(p_closing, file.path(fig_folder, "closing.png"))
+
+#get the opening, closing, changes for each code and extract to list of vectors
+extent_df <- sapply(code_grps, function(grp) suppressWarnings(unlist(change_area(sf1, sf2, grp))))
+
+#this list of cevtors can be easily converted to a data.frame
+extent_df <- as.data.frame(extent_df)
+
+#add a total column
+extent_df$Total <- rowSums(extent_df)
+
+# the change portions can be represented as a percent of the opening
+percent_df <- sapply(extent_df, function(x) x[2:4]/x[1])
+
+#a bit more complicated.
+#this now has a matrix where: 
+##the diagonals are the amounts unchanged between opening and closing in that group
+#off diagonals are the amount changed from the type in the row to the type in the column
+get_extent_matrix <- function(df1, df2){
+  cross_area <- function(grp1, grp2) {
+    df1 %>% filter(CODE_00 == grp1) %>%
+      st_intersection(df2 %>% filter(CODE_18 == grp2)) %>%
+      st_area() %>% as.numeric() %>% blank_zero() %>% sum()
+  }
+  
+  cross_mat <- do.call(rbind, lapply(code_grps, function(grp1){
+    sapply(code_grps, function(grp2) suppressWarnings(unlist(cross_area(grp1, grp2))))
+  }))
+  
+  rownames(cross_mat) <- colnames(cross_mat) <- code_grps
+  
+  cross_mat <- cross_mat/10^4
+  
+  cross_df <- as.data.frame(cross_mat)
+  
+  cross_df$openings <- rowSums(cross_df)
+  cross_df["closings",] <- colSums(cross_df)
+  
+  return(cross_df)
+}
+
+#Generate latex tables
+extent_xtab  <- xtable(extent_df)
+
+percent_xtab <- xtable(percent_df)
+
+extmat_xtab  <- xtable(get_extent_matrix(sf1, sf2))
+
+#save the tables as .tex files
+print(extent_xtab,  file = file.path(fig_folder, "extent_xtab.tex"))
+
+print(percent_xtab, file = file.path(fig_folder, "percent_xtab.tex"))
+
+print(extmat_xtab,  file = file.path(fig_folder, "extentmat_xtab.tex"))
