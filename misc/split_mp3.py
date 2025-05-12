@@ -4,12 +4,13 @@ import ffmpeg
 import os
 
 # Your array of MP3 file paths
-inp_folder = "C:\\Users\\Anthony\\Downloads\\Brandon Sanderson - Mistborn 02 - The Well of Ascension [Graphic Audio]"
+inp_folder = input("Enter the path to the folder containing MP3 files: ")
 sav_folder = os.path.join(inp_folder, "split_mp3")
 os.makedirs(sav_folder, exist_ok=True)
 
 
 mp3_files = os.listdir(inp_folder)
+mp3_files = [file for file in mp3_files if file.endswith('.mp3')]
 
 def get_duration(file_path):
     # Get duration in seconds using ffmpeg
